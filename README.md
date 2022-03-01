@@ -10,3 +10,8 @@ Plik wejściowy (który ma być wczytywany ze standardowego wejścia) w pierwsze
 - W drugiej linii znajduje się liczba n zawodników. Zawodnicy są numerowani od 0 do n-1, książe Bitomruk ma numer 0 (co według niektórych dobrze odpowiada jego osobowości).
 
 - W kolejnych n*(n-1)/2 liniach znajdują się czwórki liczb x, y, w, b, oznaczające, że gdy x gra przeciwko y to zwycięża w (gdzie w jest albo równe x albo y), ale płacąc b można wynik tego spotkania odwrócić. Każda para x, y występuje w opisie turnieju dokładnie raz.
+
+## Format danych wyjściowych
+Wynik działania programu należy wypisać na standardowe wyjście w następującym formacie:
+
+w każdej kolejnej linijce powinno być słowo “TAK” jeśli da się doprowadzić do zwycięśtwa Bitomruka i “NIE” jeśli się nie da.
